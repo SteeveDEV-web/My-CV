@@ -15,16 +15,12 @@ img{
     border-radius: 5px;
     border: thick double antiquewhite;
     position: fixed;
-    top: 2em;
+    top: 5em;
     left: 2em;
+    padding-bottom: 10em;
     
 }
 
-.infos{
-
-
-
-}
 
 .one{
 
@@ -63,10 +59,16 @@ img{
 
 }
 
-p{
+.infos p{
 
     border-radius: 5px;
     border-bottom: thick antiquewhite;
+    color: antiquewhite;
+    position: fixed;
+    top: 25em;
+    left: 3em;
+    font-size: smaller;
+    
 
 }
 
@@ -103,6 +105,8 @@ p{
 
 body{
 
-    background-color: black;
+    background-image: url(images/galaxy.jpg);
+    background-size: cover;
+
 
 }
