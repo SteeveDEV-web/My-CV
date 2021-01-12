@@ -1,0 +1,108 @@
+.wrapper{
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    padding: 1em;
+
+}
+
+img{
+
+    height: 250px;
+    width: 250px;
+    border-radius: 5px;
+    border: thick double antiquewhite;
+    position: fixed;
+    top: 2em;
+    left: 2em;
+    
+}
+
+.infos{
+
+
+
+}
+
+.one{
+
+    padding: 4em;
+    grid-column: 1 / 1;
+    grid-row: 1;
+    margin-right: 10%;
+    
+    
+}
+
+.two{
+
+    padding: 2em;
+    grid-column: 1 / 1;
+    grid-row: 1;
+    font-family: fantasy;
+    font-size: medium;
+    color: white;
+    height: 250px;
+    width: 250px;
+    border-radius: 5px;
+    border: thick double antiquewhite;
+    margin-right: 10%;
+    position : fixed;
+    top: 5em;
+    left: 23em;
+    
+
+}
+
+.two ul{
+
+    list-style-type: hiragana-iroha;
+
+
+}
+
+p{
+
+    border-radius: 5px;
+    border-bottom: thick antiquewhite;
+
+}
+
+.three{
+
+    padding: 2em;
+    padding-bottom: 10em;
+    grid-column: 2 / 4;
+    grid-row: 1 / 4;
+    font-family: fantasy;
+    font-size: medium;
+    color: white;
+    height: 250px;
+    width: 250px;
+    border-radius: 5px;
+    border: thick double antiquewhite;
+    position: fixed;
+    top: 5em;
+    right: 10em;
+
+}
+
+.three ul{
+
+    list-style-type: hiragana-iroha;
+
+}
+
+.three li{
+
+        font-style: italic;
+
+}
+
+body{
+
+    background-color: black;
+
+}
